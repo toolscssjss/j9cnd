@@ -1,0 +1,50 @@
+html,body,div,h1,h2,h3,h4,h5,span,a,dl,dt,dd,ul,li,input,p,hr,select,textarea,option,img{ padding:0; list-style:none; margin:0; border:0;vertical-align: baseline;color: #080808;}
+body{ font-size:16px; font-family: Microsoft YaHei;max-width:600px; margin: auto;}
+a:visited,a:link{ text-decoration:none;color: #080808; }
+a:hover{ text-decoration: none;}
+a img{ display:block; border:0px;}
+img{ border: 0; vertical-align: bottom;}
+table{border-collapse:collapse;}
+input{ outline:none;font-family:Microsoft YaHei;}
+select{ outline:none;font-family:Microsoft YaHei;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.home_top{ width:100%; height:58px; background:#201f2c; font-size:22px; font-weight:bold; text-align:center; color:#fff; line-height:58px}
+.home_bannar{ overflow:hidden; margin-bottom:1px;width: auto;height: auto;max-width: 100%;max-height: 100%;}
+.home_bannar img{ width:100%; display:block}
+.home_lit{ width:100%; height:46px; background:#f6f6f6}
+.home_lit1{ width:4px; height:46px; background:#550048; float:left;}
+.home_lit2{ line-height:46px; font-size:18px; color: #080808; margin-left:16px}
+.home_lit3{ overflow:hidden;}
+.home_lit3 ul li{ width:33.333333%; float:left; overflow:hidden; height:50px; border-bottom:1px solid #eee;}
+.home_lit3 ul li a{ display:block; width:80%; margin:auto;overflow: hidden; color: #080808;}
+.home_lit3 ul li a img{ width:32px; height:auto; float:left; margin-top:20px; display:block;}
+.home_lit5{ float:left;line-height:60px; margin-left:5px;width:120%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; color: #080808; }
+.home_cy{ overflow:hidden;}
+.home_cy ul li{ width:25%; float:left; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; box-sizing: border-box;}
+.home_cy ul li:nth-child(4n){border-right: 0px solid #ededed;}
+.home_cy ul li a{padding-left: 10%;padding-right: 10%; display: block;height: 50px;line-height: 60px; text-align: center;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;color: #080808;}
+.home_dibu{ width: 100%; padding-bottom: 60px; padding-top: 20px; background: #f6f6f6;}
+.home_dibu p{ width: 80%; margin: auto; display: block;text-align: center;}
+
+
+@media screen and (max-width: 480px){
+    body{ font-size:14px; }
+    .home_top{ width:100%; height:56px; background:#410037; font-size:20px; font-weight:bold; text-align:center; color:#fff; line-height:56px}
+    .home_bannar{ overflow:hidden; margin-bottom:1px}
+    .home_bannar img{ width:100%; display:block}
+    .home_lit{ width:100%; height:46px; background:#f6f6f6}
+    .home_lit1{ width:3px; height:46px; background:#550048; float:left;}
+    .home_lit2{ line-height:46px; font-size:16px;color:#333; margin-left:10px}
+    .home_lit3{ overflow:hidden;}
+    .home_lit3 ul li{ width:33.333%; float:left; overflow:hidden; height:52px; border-bottom:1px solid #eee;}
+    .home_lit3 ul li a{ display:block; width:85%; margin:auto;overflow: hidden; }
+    .home_lit3 ul li a img{ width: auto;height: auto;max-width: 23%;float:left; padding-top:1px;display:block;}
+    .home_lit5{ float:left;line-height:56px; margin-left:2px;width:70%;overflow: hidden;text-overflow:ellipsis;white-space:normal; color: #333; font-size: 14px;}
+    .home_cy{ overflow:hidden;}
+    .home_cy ul li{ width:25%; float:left; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; box-sizing: border-box;font-size: 14px;}
+    .home_cy ul li:nth-child(4n){border-right: 0px solid #ededed;}
+    .home_cy ul li a{padding-left: 10%;padding-right: 10%; display: block;height: 50px;line-height: 50px; text-align: center;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;color: #333;}
+    .home_dibu{ width: 100%; padding-bottom: 42px; padding-top: 16px; background: #f6f6f6;}
+    .home_dibu p{ width: 80%; margin: auto; display: block;text-align: center;}
+}
